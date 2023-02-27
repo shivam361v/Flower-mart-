@@ -1,0 +1,9 @@
+1. node -v
+2. npm -v
+3. npm install -g create-react-app 
+4. npx create-react-app flower_mart_client
+5. cd .\flower_mart_client\
+6. npm install bootstrap
+7. npm install react-router-dom
+
+
