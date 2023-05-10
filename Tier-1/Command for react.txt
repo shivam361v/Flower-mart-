@@ -1,0 +1,8 @@
+1.npm install
+2. npm install -g create-react-app
+3. create-react-app my-react-tutorial-app
+4. cd my-react-tutorial-app
+5. npm install bootstrap
+6. npm install  react-router-dom
+7. npm install react-redux
+8. npm install @reduxjs/toolkit
