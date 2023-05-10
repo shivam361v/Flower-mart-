@@ -26,6 +26,10 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 	@Query("update User u set u.status=1 where u.user_id=:uid")
 	public int updateRegStatus(@Param ("uid")int uid);
 	
+	@Modifying
+	@Query("update User u set u.status=1 where u.user_id=:uid")
+	public int updateRegStatus(int uid);
+	
 	/*
 	@Query("select c from Contact c where fname like '%a%'")
 	public List<User> getAllWithA();

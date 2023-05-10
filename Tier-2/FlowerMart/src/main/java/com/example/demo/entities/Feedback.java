@@ -46,8 +46,12 @@ public class Feedback {
 	}
 
 	public Feedback(int feedback_id, User user_id, Product product_id, FloristProduct florist_id, int rating,
+<<<<<<< HEAD:Tier-2/FlowerMart/src/main/java/com/example/demo/entities/Feedback.java
 			String comment) 
 	{
+=======
+			String comment) {
+>>>>>>> 4aed2d2adae4e4629b68de930bdb9032640ddf41:FlowerMart/src/main/java/com/example/demo/entities/Feedback.java
 		super();
 		this.feedback_id = feedback_id;
 		this.user_id = user_id;
@@ -57,6 +61,7 @@ public class Feedback {
 		this.comment = comment;
 	}
 
+<<<<<<< HEAD:Tier-2/FlowerMart/src/main/java/com/example/demo/entities/Feedback.java
 	public int getFeedback_id() 
 	{
 		return feedback_id;
@@ -116,4 +121,55 @@ public class Feedback {
 	{
 		this.comment = comment;
 	}
+=======
+	public int getFeedback_id() {
+		return feedback_id;
+	}
+
+	public void setFeedback_id(int feedback_id) {
+		this.feedback_id = feedback_id;
+	}
+
+	public User getUser_id() {
+		return user_id;
+	}
+
+	public void setUser_id(User user_id) {
+		this.user_id = user_id;
+	}
+
+	public Product getProduct_id() {
+		return product_id;
+	}
+
+	public void setProduct_id(Product product_id) {
+		this.product_id = product_id;
+	}
+
+	public FloristProduct getFlorist_id() {
+		return florist_id;
+	}
+
+	public void setFlorist_id(FloristProduct florist_id) {
+		this.florist_id = florist_id;
+	}
+
+	public int getRating() {
+		return rating;
+	}
+
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+
+	public String getComment() {
+		return comment;
+	}
+
+	public void setComment(String comment) {
+		this.comment = comment;
+	}
+	
+	
+>>>>>>> 4aed2d2adae4e4629b68de930bdb9032640ddf41:FlowerMart/src/main/java/com/example/demo/entities/Feedback.java
 }

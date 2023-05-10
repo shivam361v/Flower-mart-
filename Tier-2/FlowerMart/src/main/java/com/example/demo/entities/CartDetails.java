@@ -15,8 +15,13 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name="cart_details")
+<<<<<<< HEAD:Tier-2/FlowerMart/src/main/java/com/example/demo/entities/CartDetails.java
 public class CartDetails 
 {
+=======
+public class CartDetails {
+
+>>>>>>> 4aed2d2adae4e4629b68de930bdb9032640ddf41:FlowerMart/src/main/java/com/example/demo/entities/CartDetails.java
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int cart_detail_id;
@@ -58,8 +63,12 @@ public class CartDetails
 
 
 	public CartDetails(int cart_detail_id, Cart cart_id, Product product_id, int product_quantity, double product_rate,
+<<<<<<< HEAD:Tier-2/FlowerMart/src/main/java/com/example/demo/entities/CartDetails.java
 			double product_amount) 
 	{
+=======
+			double product_amount) {
+>>>>>>> 4aed2d2adae4e4629b68de930bdb9032640ddf41:FlowerMart/src/main/java/com/example/demo/entities/CartDetails.java
 		super();
 		this.cart_detail_id = cart_detail_id;
 		this.cart_id = cart_id;
@@ -69,6 +78,7 @@ public class CartDetails
 		this.product_amount = product_amount;
 	}
 
+<<<<<<< HEAD:Tier-2/FlowerMart/src/main/java/com/example/demo/entities/CartDetails.java
 	public int getCart_detail_id() 
 	{
 		return cart_detail_id;
@@ -126,6 +136,53 @@ public class CartDetails
 
 	public void setProduct_amount(double product_amount) 
 	{
+=======
+	public int getCart_detail_id() {
+		return cart_detail_id;
+	}
+
+	public void setCart_detail_id(int cart_detail_id) {
+		this.cart_detail_id = cart_detail_id;
+	}
+
+	public Cart getCart_id() {
+		return cart_id;
+	}
+
+	public void setCart_id(Cart cart_id) {
+		this.cart_id = cart_id;
+	}
+
+	public Product getProduct_id() {
+		return product_id;
+	}
+
+	public void setProduct_id(Product product_id) {
+		this.product_id = product_id;
+	}
+
+	public int getProduct_quantity() {
+		return product_quantity;
+	}
+
+	public void setProduct_quantity(int product_quantity) {
+		this.product_quantity = product_quantity;
+	}
+
+	public double getProduct_rate() {
+		return product_rate;
+	}
+
+	public void setProduct_rate(double product_rate) {
+		this.product_rate = product_rate;
+	}
+
+	public double getProduct_amount() {
+		return product_amount;
+	}
+
+	public void setProduct_amount(double product_amount) {
+>>>>>>> 4aed2d2adae4e4629b68de930bdb9032640ddf41:FlowerMart/src/main/java/com/example/demo/entities/CartDetails.java
 		this.product_amount = product_amount;
 	}
 	
